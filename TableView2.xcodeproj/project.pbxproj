@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C678B0016B7CBF9005B8AF3 /* Prices.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8C678AFF16B7CBF9005B8AF3 /* Prices.xml */; };
 		8C8914D8157B29910039AD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8914D7157B29910039AD35 /* UIKit.framework */; };
 		8C8914DA157B29910039AD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8914D9157B29910039AD35 /* Foundation.framework */; };
 		8C8914DC157B29910039AD35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8914DB157B29910039AD35 /* CoreGraphics.framework */; };
@@ -15,7 +16,6 @@
 		8C8914E8157B29920039AD35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8914E7157B29920039AD35 /* AppDelegate.m */; };
 		8C8914EB157B29920039AD35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8914EA157B29920039AD35 /* ViewController.m */; };
 		8C8914EE157B29920039AD35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C8914EC157B29920039AD35 /* ViewController.xib */; };
-		8C89D79F157F12AF00F138FE /* Prices.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8C89D79E157F12AF00F138FE /* Prices.xml */; };
 		8C89D7A2157F13AF00F138FE /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C89D7A1157F13AE00F138FE /* List.m */; };
 		8C89D7A9157F14AB00F138FE /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C89D7A8157F14AB00F138FE /* Parser.m */; };
 		8C95CE62157B4DC6003B3D38 /* ClassText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C95CE60157B4DC6003B3D38 /* ClassText.m */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C678AFF16B7CBF9005B8AF3 /* Prices.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Prices.xml; sourceTree = SOURCE_ROOT; };
 		8C8914D3157B29910039AD35 /* TableView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8914D7157B29910039AD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C8914D9157B29910039AD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +37,6 @@
 		8C8914E9157B29920039AD35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C8914EA157B29920039AD35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C8914ED157B29920039AD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		8C89D79E157F12AF00F138FE /* Prices.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Prices.xml; path = ../../DrinkXML/Prices.xml; sourceTree = "<group>"; };
 		8C89D7A0157F13AE00F138FE /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		8C89D7A1157F13AE00F138FE /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		8C89D7A7157F14AB00F138FE /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		8C8914DE157B29920039AD35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8C89D79E157F12AF00F138FE /* Prices.xml */,
+				8C678AFF16B7CBF9005B8AF3 /* Prices.xml */,
 				8C8914DF157B29920039AD35 /* TableView2-Info.plist */,
 				8C8914E0157B29920039AD35 /* InfoPlist.strings */,
 				8C8914E3157B29920039AD35 /* main.m */,
@@ -172,7 +172,7 @@
 				8C8914E2157B29920039AD35 /* InfoPlist.strings in Resources */,
 				8C8914EE157B29920039AD35 /* ViewController.xib in Resources */,
 				8C95CE63157B4DC6003B3D38 /* ClassText.xib in Resources */,
-				8C89D79F157F12AF00F138FE /* Prices.xml in Resources */,
+				8C678B0016B7CBF9005B8AF3 /* Prices.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
