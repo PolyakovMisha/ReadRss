@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Prices>
+<Price id="1">
+<name>Rosie o'Gradas</name>
+<Beer>4.50</Beer>
+<Cider>4.50</Cider>
+<Guinness>4</Guinness>
+</Price>
+<Price id="2">
+<name>Wicked wolf</name>
+<Beer>5</Beer>
+<Cider>4.50</Cider>
+<Guinness>4</Guinness>
+</Price>
+<Price id="3">
+<name>Cafe Posh</name>
+<Beer>6</Beer>
+<Cider>5.50</Cider>
+<Guinness>5.50</Guinness>
+</Price>
+</Prices>
