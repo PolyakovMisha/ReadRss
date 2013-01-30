@@ -17,7 +17,6 @@
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 @property (strong, nonatomic) NSMutableArray *listArray;
-
 @property (strong, nonatomic) ViewController *viewController;
 
 @end

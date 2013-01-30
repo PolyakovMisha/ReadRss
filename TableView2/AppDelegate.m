@@ -27,24 +27,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-   // NSURL *url=[[NSURL alloc]initWithString:@"http://ielmo.xtreemhost.com/Prices.xml"];
-   // NSData *data=[[NSData alloc]initWithContentsOfURL:url];
+      
+    NSURL *url=[[NSURL alloc]initWithString:@"http://ielmo.xtreemhost.com/Prices.xml"];
+    NSData *data=[[NSData alloc]initWithContentsOfURL:url];
     
-    NSString *filePach=[[NSBundle mainBundle]pathForResource:@"Prices.xml" ofType:nil];
-    NSData *data=[NSData dataWithContentsOfFile:filePach];
+   // NSString *filePach=[[NSBundle mainBundle]pathForResource:@"Prices.xml" ofType:nil];
+   // NSData *data=[NSData dataWithContentsOfFile:filePach];
     
     NSXMLParser *xmlParser=[[NSXMLParser alloc]initWithData:data];
     Parser *theParser=[[Parser alloc]initParser];
     [xmlParser setDelegate:theParser];
     [xmlParser parse];
-    /*    BOOL worked=[xmlParser parse];
+        BOOL worked=[xmlParser parse];
         if (worked) {
         NSLog(@"Allok %i",[listArray count]);
     }
     else
         NSLog(@"Boo");
     
-    */
+    
     
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -55,6 +56,9 @@
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
